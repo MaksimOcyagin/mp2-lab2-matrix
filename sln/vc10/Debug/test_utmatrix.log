@@ -1,0 +1,16 @@
+﻿Build started 28.10.2015 9:23:42.
+     1>Project "C:\Users\admin\mp2-lab2-matrix\sln\vc10\test_utmatrix.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (gtest.vcxproj, sample_utmatrix.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../gtest /I../../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\test\test_tmatrix.cpp ..\..\test\test_tvector.cpp
+     1>cl : Command line warning D9028: minimal rebuild failure, reverting to normal build
+         test_tmatrix.cpp
+     1>c:\users\admin\mp2-lab2-matrix\test\test_tmatrix.cpp : fatal error C1041: cannot open program database 'c:\users\admin\mp2-lab2-matrix\sln\vc10\debug\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         test_tvector.cpp
+     1>c:\users\admin\mp2-lab2-matrix\test\test_tvector.cpp : fatal error C1041: cannot open program database 'c:\users\admin\mp2-lab2-matrix\sln\vc10\debug\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         Generating Code...
+     1>Done Building Project "C:\Users\admin\mp2-lab2-matrix\sln\vc10\test_utmatrix.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.64
